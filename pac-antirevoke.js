@@ -1,6 +1,6 @@
 var DIRECT = "DIRECT";
 var PROXY = "PROXY 127.0.0.1:80";
-var blacklist = {"ocsp.apple.com":1, "su.itunes.apple.com":1, "mesu.apple.com":1, "updates-http.cdn-apple.com":1, "appldnld.apple.com":1, "xp.apple.com":1, "appldnld.apple.com":1, "gdmf.apple.com":1, "ocsp.int-x3.letsencrypt.org":1, "world-gen.g.aaplimg.com":1};
+var blacklist = {"ocsp.apple.com":1};
 function FindProxyForURL(url, host) {
   host = host.toLowerCase();
   for (i = 0; i < 30; i++) {
