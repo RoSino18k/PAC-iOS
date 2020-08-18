@@ -1,5 +1,5 @@
 var DIRECT = "DIRECT";
-var PROXY = "PROXY 127.0.0.1:7979";
+var PROXY = "PROXY 127.0.0.1:8080";
 var blacklist = {"ocsp.apple.com":1};
 function FindProxyForURL(url, host) {
   host = host.toLowerCase();
